@@ -1,0 +1,797 @@
+<h2 id="overv" class="list">European High-Risk Medical Devices and IVD Ontology: Overview <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
+<span class="markdown">
+This ontology has the following classes and properties.</span>
+<h4>Classes</h4>
+<ul xmlns:widoco="https://w3id.org/widoco/vocab#"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    class="hlist">
+   <li>
+      <a href="#ActionType" title="http://example.org/meddevice#ActionType">Action type</a>
+   </li>
+   <li>
+      <a href="#CompetentAuthority" title="http://example.org/meddevice#CompetentAuthority">Competent authority</a>
+   </li>
+   <li>
+      <a href="#CorrectiveAction" title="http://example.org/meddevice#CorrectiveAction">Corrective action</a>
+   </li>
+   <li>
+      <a href="#Country" title="http://example.org/meddevice#Country">Country</a>
+   </li>
+   <li>
+      <a href="#Device" title="http://example.org/meddevice#Device">Device</a>
+   </li>
+   <li>
+      <a href="#DeviceType" title="http://example.org/meddevice#DeviceType">Device type</a>
+   </li>
+   <li>
+      <a href="#FSCA" title="http://example.org/meddevice#FSCA">FSCA</a>
+   </li>
+   <li>
+      <a href="#FSCAStatus" title="http://example.org/meddevice#FSCAStatus">FSCA status</a>
+   </li>
+   <li>
+      <a href="#InVitroDiagnosticDevice"
+         title="http://example.org/meddevice#InVitroDiagnosticDevice">In vitro diagnostic device</a>
+   </li>
+   <li>
+      <a href="#Incident" title="http://example.org/meddevice#Incident">Incident</a>
+   </li>
+   <li>
+      <a href="#IncidentType" title="http://example.org/meddevice#IncidentType">Incident type</a>
+   </li>
+   <li>
+      <a href="#IVDRFramework" title="http://example.org/meddevice#IVDRFramework">IVDR framework</a>
+   </li>
+   <li>
+      <a href="#IVDRRiskClass" title="http://example.org/meddevice#IVDRRiskClass">IVDR risk class</a>
+   </li>
+   <li>
+      <a href="#Manufacturer" title="http://example.org/meddevice#Manufacturer">Manufacturer</a>
+   </li>
+   <li>
+      <a href="#MDRFramework" title="http://example.org/meddevice#MDRFramework">MDR framework</a>
+   </li>
+   <li>
+      <a href="#MDRRiskClass" title="http://example.org/meddevice#MDRRiskClass">MDR risk class</a>
+   </li>
+   <li>
+      <a href="#MedicalDevice" title="http://example.org/meddevice#MedicalDevice">Medical device</a>
+   </li>
+   <li>
+      <a href="#MedicalEntity" title="http://example.org/meddevice#MedicalEntity">Medical entity</a>
+   </li>
+   <li>
+      <a href="#NearMissIncident" title="http://example.org/meddevice#NearMissIncident">
+         <span>Near miss incident</span>
+      </a>
+   </li>
+   <li>
+      <a href="#ProbabilityLevel" title="http://example.org/meddevice#ProbabilityLevel">Probability level</a>
+   </li>
+   <li>
+      <a href="#RegulatoryFramework"
+         title="http://example.org/meddevice#RegulatoryFramework">Regulatory framework</a>
+   </li>
+   <li>
+      <a href="#Risk" title="http://example.org/meddevice#Risk">Risk</a>
+   </li>
+   <li>
+      <a href="#RiskCategory" title="http://example.org/meddevice#RiskCategory">Risk category</a>
+   </li>
+   <li>
+      <a href="#RiskClass" title="http://example.org/meddevice#RiskClass">Risk class</a>
+   </li>
+   <li>
+      <a href="#RiskType" title="http://example.org/meddevice#RiskType">Risk type</a>
+   </li>
+   <li>
+      <a href="#SeriousIncident" title="http://example.org/meddevice#SeriousIncident">
+         <span>Serious incident</span>
+      </a>
+   </li>
+   <li>
+      <a href="#SeverityLevel" title="http://example.org/meddevice#SeverityLevel">Severity level</a>
+   </li>
+</ul><h4>Object Properties</h4><ul xmlns:widoco="https://w3id.org/widoco/vocab#"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    class="hlist">
+   <li>
+      <a href="#addressesIncident" title="http://example.org/meddevice#addressesIncident">addresses incident</a>
+   </li>
+   <li>
+      <a href="#affectsDeviceType" title="http://example.org/meddevice#affectsDeviceType">affects device type</a>
+   </li>
+   <li>
+      <a href="#hasActionType" title="http://example.org/meddevice#hasActionType">has action type</a>
+   </li>
+   <li>
+      <a href="#hasCompetentAuthority"
+         title="http://example.org/meddevice#hasCompetentAuthority">has competent authority</a>
+   </li>
+   <li>
+      <a href="#hasDeviceType" title="http://example.org/meddevice#hasDeviceType">has device type</a>
+   </li>
+   <li>
+      <a href="#hasManufacturer" title="http://example.org/meddevice#hasManufacturer">has manufacturer</a>
+   </li>
+   <li>
+      <a href="#hasProbability" title="http://example.org/meddevice#hasProbability">has probability</a>
+   </li>
+   <li>
+      <a href="#hasRiskCategory" title="http://example.org/meddevice#hasRiskCategory">has risk category</a>
+   </li>
+   <li>
+      <a href="#hasRiskClass" title="http://example.org/meddevice#hasRiskClass">has risk class</a>
+   </li>
+   <li>
+      <a href="#hasRiskType" title="http://example.org/meddevice#hasRiskType">has risk type</a>
+   </li>
+   <li>
+      <a href="#hasSeverity" title="http://example.org/meddevice#hasSeverity">has severity</a>
+   </li>
+   <li>
+      <a href="#hasStatus" title="http://example.org/meddevice#hasStatus">has status</a>
+   </li>
+   <li>
+      <a href="#involvesDevice" title="http://example.org/meddevice#involvesDevice">involves device</a>
+   </li>
+   <li>
+      <a href="#locatedInCountry" title="http://example.org/meddevice#locatedInCountry">located in country</a>
+   </li>
+   <li>
+      <a href="#regulatedUnder" title="http://example.org/meddevice#regulatedUnder">regulated under</a>
+   </li>
+   <li>
+      <a href="#relatedToRisk" title="http://example.org/meddevice#relatedToRisk">related to risk</a>
+   </li>
+   <li>
+      <a href="#reportedBy" title="http://example.org/meddevice#reportedBy">reported by</a>
+   </li>
+   <li>
+      <a href="#reportedInCountry" title="http://example.org/meddevice#reportedInCountry">reported in country</a>
+   </li>
+</ul><h4>Data Properties</h4><ul xmlns:widoco="https://w3id.org/widoco/vocab#"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    class="hlist">
+   <li>
+      <a href="#actionDate" title="http://example.org/meddevice#actionDate">actionDate</a>
+   </li>
+   <li>
+      <a href="#authorizationNumber" title="http://example.org/meddevice#authorizationNumber">authorizationNumber</a>
+   </li>
+   <li>
+      <a href="#closureDate" title="http://example.org/meddevice#closureDate">closureDate</a>
+   </li>
+   <li>
+      <a href="#contactEmail" title="http://example.org/meddevice#contactEmail">contactEmail</a>
+   </li>
+   <li>
+      <a href="#correctiveActionTaken"
+         title="http://example.org/meddevice#correctiveActionTaken">correctiveActionTaken</a>
+   </li>
+   <li>
+      <a href="#countriesAffectedText"
+         title="http://example.org/meddevice#countriesAffectedText">countriesAffectedText</a>
+   </li>
+   <li>
+      <a href="#detectionDate" title="http://example.org/meddevice#detectionDate">detectionDate</a>
+   </li>
+   <li>
+      <a href="#deviceIdentifier" title="http://example.org/meddevice#deviceIdentifier">deviceIdentifier</a>
+   </li>
+   <li>
+      <a href="#deviceName" title="http://example.org/meddevice#deviceName">deviceName</a>
+   </li>
+   <li>
+      <a href="#devicesAffectedText" title="http://example.org/meddevice#devicesAffectedText">devicesAffectedText</a>
+   </li>
+   <li>
+      <a href="#eudamedSrn" title="http://example.org/meddevice#eudamedSrn">eudamedSrn</a>
+   </li>
+   <li>
+      <a href="#eventDate" title="http://example.org/meddevice#eventDate">eventDate</a>
+   </li>
+   <li>
+      <a href="#fscaDescription" title="http://example.org/meddevice#fscaDescription">fscaDescription</a>
+   </li>
+   <li>
+      <a href="#fscaIdentifier" title="http://example.org/meddevice#fscaIdentifier">fscaIdentifier</a>
+   </li>
+   <li>
+      <a href="#fscaReference" title="http://example.org/meddevice#fscaReference">fscaReference</a>
+   </li>
+   <li>
+      <a href="#imdrfCode" title="http://example.org/meddevice#imdrfCode">imdrfCode</a>
+   </li>
+   <li>
+      <a href="#incidentDescription" title="http://example.org/meddevice#incidentDescription">incidentDescription</a>
+   </li>
+   <li>
+      <a href="#incidentIdentifier" title="http://example.org/meddevice#incidentIdentifier">incidentIdentifier</a>
+   </li>
+   <li>
+      <a href="#incidentReference" title="http://example.org/meddevice#incidentReference">incidentReference</a>
+   </li>
+   <li>
+      <a href="#intendedPurpose" title="http://example.org/meddevice#intendedPurpose">intendedPurpose</a>
+   </li>
+   <li>
+      <a href="#isActive" title="http://example.org/meddevice#isActive">isActive</a>
+   </li>
+   <li>
+      <a href="#isImplantable" title="http://example.org/meddevice#isImplantable">isImplantable</a>
+   </li>
+   <li>
+      <a href="#isIvd" title="http://example.org/meddevice#isIvd">isIvd</a>
+   </li>
+   <li>
+      <a href="#isReusable" title="http://example.org/meddevice#isReusable">isReusable</a>
+   </li>
+   <li>
+      <a href="#manufacturerIdentifier"
+         title="http://example.org/meddevice#manufacturerIdentifier">manufacturerIdentifier</a>
+   </li>
+   <li>
+      <a href="#manufacturerName" title="http://example.org/meddevice#manufacturerName">manufacturerName</a>
+   </li>
+   <li>
+      <a href="#outcomeDescription" title="http://example.org/meddevice#outcomeDescription">outcomeDescription</a>
+   </li>
+   <li>
+      <a href="#patientAge" title="http://example.org/meddevice#patientAge">patientAge</a>
+   </li>
+   <li>
+      <a href="#patientSex" title="http://example.org/meddevice#patientSex">patientSex</a>
+   </li>
+   <li>
+      <a href="#reportDate" title="http://example.org/meddevice#reportDate">reportDate</a>
+   </li>
+   <li>
+      <a href="#riskDescription" title="http://example.org/meddevice#riskDescription">riskDescription</a>
+   </li>
+   <li>
+      <a href="#riskIdentifier" title="http://example.org/meddevice#riskIdentifier">riskIdentifier</a>
+   </li>
+   <li>
+      <a href="#riskName" title="http://example.org/meddevice#riskName">riskName</a>
+   </li>
+   <li>
+      <a href="#scopeDescription" title="http://example.org/meddevice#scopeDescription">scopeDescription</a>
+   </li>
+   <li>
+      <a href="#udiDi" title="http://example.org/meddevice#udiDi">udiDi</a>
+   </li>
+</ul><h4>Named Individuals</h4><ul xmlns:widoco="https://w3id.org/widoco/vocab#"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    class="hlist">
+   <li>
+      <a href="#Manufacturer_MAN_002"
+         title="http://example.org/meddevice#Manufacturer_MAN_002">Abbott Medical Devices</a>
+   </li>
+   <li>
+      <a href="#DeviceType_ActiveDevice"
+         title="http://example.org/meddevice#DeviceType_ActiveDevice">ActiveDevice</a>
+   </li>
+   <li>
+      <a href="#DeviceType_ActiveImplant"
+         title="http://example.org/meddevice#DeviceType_ActiveImplant">ActiveImplant</a>
+   </li>
+   <li>
+      <a href="#Device_DEV_005" title="http://example.org/meddevice#Device_DEV_005">ACUITY X4 Quadripolar LV Lead</a>
+   </li>
+   <li>
+      <a href="#Device_DEV_007" title="http://example.org/meddevice#Device_DEV_007">ACUSON Sequoia Ultrasound</a>
+   </li>
+   <li>
+      <a href="#Authority_Agence_f_d_rale_des_m_dicaments_et_des_produits_de_sant_AFMPS"
+         title="http://example.org/meddevice#Authority_Agence_f_d_rale_des_m_dicaments_et_des_produits_de_sant_AFMPS">Agence fédérale des médicaments et des produits de santé (AFMPS)</a>
+   </li>
+   <li>
+      <a href="#Authority_Agence_nationale_de_s_curit_du_m_dicament_ANSM"
+         title="http://example.org/meddevice#Authority_Agence_nationale_de_s_curit_du_m_dicament_ANSM">Agence nationale de sécurité du médicament (ANSM)</a>
+   </li>
+   <li>
+      <a href="#Device_DEV_013" title="http://example.org/meddevice#Device_DEV_013">ATERA Mechanical Ventilator</a>
+   </li>
+   <li>
+      <a href="#Risk_RSK_009" title="http://example.org/meddevice#Risk_RSK_009">Battery depletion - premature</a>
+   </li>
+   <li>
+      <a href="#Country_Belgium" title="http://example.org/meddevice#Country_Belgium">Belgium</a>
+   </li>
+   <li>
+      <a href="#Device_DEV_022" title="http://example.org/meddevice#Device_DEV_022">BeneVision N1 Patient Monitor</a>
+   </li>
+   <li>
+      <a href="#Risk_RSK_008" title="http://example.org/meddevice#Risk_RSK_008">Biofilm formation</a>
+   </li>
+   <li>
+      <a href="#Manufacturer_MAN_015"
+         title="http://example.org/meddevice#Manufacturer_MAN_015">bioMérieux SA</a>
+   </li>
+   <li>
+      <a href="#Manufacturer_MAN_008"
+         title="http://example.org/meddevice#Manufacturer_MAN_008">Biotronik SE &amp; Co. KG</a>
+   </li>
+   <li>
+      <a href="#Manufacturer_MAN_006"
+         title="http://example.org/meddevice#Manufacturer_MAN_006">Boston Scientific Corporation</a>
+   </li>
+   <li>
+      <a href="#Authority_Bundesinstitut_f_r_Arzneimittel_und_Medizinprodukte_BfArM"
+         title="http://example.org/meddevice#Authority_Bundesinstitut_f_r_Arzneimittel_und_Medizinprodukte_BfArM">Bundesinstitut für Arzneimittel und Medizinprodukte (BfArM)</a>
+   </li>
+   <li>
+      <a href="#ClassC" title="http://example.org/meddevice#ClassC">ClassC</a>
+   </li>
+   <li>
+      <a href="#ClassD" title="http://example.org/meddevice#ClassD">ClassD</a>
+   </li>
+   <li>
+      <a href="#ClassIIa" title="http://example.org/meddevice#ClassIIa">ClassIIa</a>
+   </li>
+   <li>
+      <a href="#ClassIIb" title="http://example.org/meddevice#ClassIIb">ClassIIb</a>
+   </li>
+   <li>
+      <a href="#ClassIII" title="http://example.org/meddevice#ClassIII">ClassIII</a>
+   </li>
+   <li>
+      <a href="#Status_Closed" title="http://example.org/meddevice#Status_Closed">Closed</a>
+   </li>
+   <li>
+      <a href="#Device_DEV_016" title="http://example.org/meddevice#Device_DEV_016">cobas e 801 Immunoassay Analyzer</a>
+   </li>
+   <li>
+      <a href="#Device_DEV_017" title="http://example.org/meddevice#Device_DEV_017">cobas SARS-CoV-2 RT-PCR Test</a>
+   </li>
+   <li>
+      <a href="#Risk_RSK_017" title="http://example.org/meddevice#Risk_RSK_017">Contamination - reagent</a>
+   </li>
+   <li>
+      <a href="#RiskType_ContaminationRisk"
+         title="http://example.org/meddevice#RiskType_ContaminationRisk">ContaminationRisk</a>
+   </li>
+   <li>
+      <a href="#Risk_RSK_020" title="http://example.org/meddevice#Risk_RSK_020">Corrosion - metallic implant</a>
+   </li>
+   <li>
+      <a href="#Severity_Critical" title="http://example.org/meddevice#Severity_Critical">Critical</a>
+   </li>
+   <li>
+      <a href="#Risk_RSK_016" title="http://example.org/meddevice#Risk_RSK_016">Cross-reactivity</a>
+   </li>
+   <li>
+      <a href="#Risk_RSK_018" title="http://example.org/meddevice#Risk_RSK_018">Cybersecurity vulnerability</a>
+   </li>
+   <li>
+      <a href="#RiskType_CybersecurityRisk"
+         title="http://example.org/meddevice#RiskType_CybersecurityRisk">CybersecurityRisk</a>
+   </li>
+   <li>
+      <a href="#Country_Denmark" title="http://example.org/meddevice#Country_Denmark">Denmark</a>
+   </li>
+   <li>
+      <a href="#RiskCategory_Device_Failure"
+         title="http://example.org/meddevice#RiskCategory_Device_Failure">Device Failure</a>
+   </li>
+   <li>
+      <a href="#Risk_RSK_001" title="http://example.org/meddevice#Risk_RSK_001">Device failure - electrical</a>
+   </li>
+   <li>
+      <a href="#Risk_RSK_002" title="http://example.org/meddevice#Risk_RSK_002">Device failure - mechanical</a>
+   </li>
+   <li>
+      <a href="#Risk_RSK_005" title="http://example.org/meddevice#Risk_RSK_005">Device migration - implant</a>
+   </li>
+   <li>
+      <a href="#RiskCategory_Device_Performance"
+         title="http://example.org/meddevice#RiskCategory_Device_Performance">Device Performance</a>
+   </li>
+   <li>
+      <a href="#RiskCategory_Device_Safety"
+         title="http://example.org/meddevice#RiskCategory_Device_Safety">Device Safety</a>
+   </li>
+   <li>
+      <a href="#RiskCategory_Diagnostic_Error"
+         title="http://example.org/meddevice#RiskCategory_Diagnostic_Error">Diagnostic Error</a>
+   </li>
+   <li>
+      <a href="#RiskType_DiagnosticRisk"
+         title="http://example.org/meddevice#RiskType_DiagnosticRisk">DiagnosticRisk</a>
+   </li>
+   <li>
+      <a href="#Manufacturer_MAN_012"
+         title="http://example.org/meddevice#Manufacturer_MAN_012">Drägerwerk AG &amp; Co. KGaA</a>
+   </li>
+   <li>
+      <a href="#Risk_RSK_013" title="http://example.org/meddevice#Risk_RSK_013">Electromagnetic interference</a>
+   </li>
+   <li>
+      <a href="#Risk_RSK_015" title="http://example.org/meddevice#Risk_RSK_015">False negative result</a>
+   </li>
+   <li>
+      <a href="#Risk_RSK_014" title="http://example.org/meddevice#Risk_RSK_014">False positive result</a>
+   </li>
+   <li>
+      <a href="#Country_France" title="http://example.org/meddevice#Country_France">France</a>
+   </li>
+   <li>
+      <a href="#FSCA_FSCA_001" title="http://example.org/meddevice#FSCA_FSCA_001">FSCA-001</a>
+   </li>
+   <li>
+      <a href="#FSCA_FSCA_002" title="http://example.org/meddevice#FSCA_FSCA_002">FSCA-002</a>
+   </li>
+   <li>
+      <a href="#FSCA_FSCA_003" title="http://example.org/meddevice#FSCA_FSCA_003">FSCA-003</a>
+   </li>
+   <li>
+      <a href="#FSCA_FSCA_004" title="http://example.org/meddevice#FSCA_FSCA_004">FSCA-004</a>
+   </li>
+   <li>
+      <a href="#FSCA_FSCA_005" title="http://example.org/meddevice#FSCA_FSCA_005">FSCA-005</a>
+   </li>
+   <li>
+      <a href="#FSCA_FSCA_006" title="http://example.org/meddevice#FSCA_FSCA_006">FSCA-006</a>
+   </li>
+   <li>
+      <a href="#FSCA_FSCA_007" title="http://example.org/meddevice#FSCA_FSCA_007">FSCA-007</a>
+   </li>
+   <li>
+      <a href="#FSCA_FSCA_008" title="http://example.org/meddevice#FSCA_FSCA_008">FSCA-008</a>
+   </li>
+   <li>
+      <a href="#FSCA_FSCA_009" title="http://example.org/meddevice#FSCA_FSCA_009">FSCA-009</a>
+   </li>
+   <li>
+      <a href="#FSCA_FSCA_010" title="http://example.org/meddevice#FSCA_FSCA_010">FSCA-010</a>
+   </li>
+   <li>
+      <a href="#FSCA_FSCA_011" title="http://example.org/meddevice#FSCA_FSCA_011">FSCA-011</a>
+   </li>
+   <li>
+      <a href="#FSCA_FSCA_012" title="http://example.org/meddevice#FSCA_FSCA_012">FSCA-012</a>
+   </li>
+   <li>
+      <a href="#FSCA_FSCA_013" title="http://example.org/meddevice#FSCA_FSCA_013">FSCA-013</a>
+   </li>
+   <li>
+      <a href="#FSCA_FSCA_014" title="http://example.org/meddevice#FSCA_FSCA_014">FSCA-014</a>
+   </li>
+   <li>
+      <a href="#FSCA_FSCA_015" title="http://example.org/meddevice#FSCA_FSCA_015">FSCA-015</a>
+   </li>
+   <li>
+      <a href="#Manufacturer_MAN_009"
+         title="http://example.org/meddevice#Manufacturer_MAN_009">GE HealthCare Technologies</a>
+   </li>
+   <li>
+      <a href="#Country_Germany" title="http://example.org/meddevice#Country_Germany">Germany</a>
+   </li>
+   <li>
+      <a href="#Device_DEV_020" title="http://example.org/meddevice#Device_DEV_020">Harmony Prenatal Test</a>
+   </li>
+   <li>
+      <a href="#Authority_Health_Products_Regulatory_Authority_HPRA"
+         title="http://example.org/meddevice#Authority_Health_Products_Regulatory_Authority_HPRA">Health Products Regulatory Authority (HPRA)</a>
+   </li>
+   <li>
+      <a href="#Device_DEV_001" title="http://example.org/meddevice#Device_DEV_001">HeartMate 3 LVAD</a>
+   </li>
+   <li>
+      <a href="#Device_DEV_015" title="http://example.org/meddevice#Device_DEV_015">Hemodialysis Machine 5008S</a>
+   </li>
+   <li>
+      <a href="#Risk_RSK_004" title="http://example.org/meddevice#Risk_RSK_004">Hemolysis - pump-induced</a>
+   </li>
+   <li>
+      <a href="#Probability_High" title="http://example.org/meddevice#Probability_High">High</a>
+   </li>
+   <li>
+      <a href="#Manufacturer_MAN_014"
+         title="http://example.org/meddevice#Manufacturer_MAN_014">Hologic Inc.</a>
+   </li>
+   <li>
+      <a href="#Device_DEV_011" title="http://example.org/meddevice#Device_DEV_011">Iluvien Intravitreal Implant</a>
+   </li>
+   <li>
+      <a href="#DeviceType_ImplantableActiveDevice"
+         title="http://example.org/meddevice#DeviceType_ImplantableActiveDevice">ImplantableActiveDevice</a>
+   </li>
+   <li>
+      <a href="#DeviceType_ImplantableDevice"
+         title="http://example.org/meddevice#DeviceType_ImplantableDevice">ImplantableDevice</a>
+   </li>
+   <li>
+      <a href="#Incident_INC_001" title="http://example.org/meddevice#Incident_INC_001">INC-001</a>
+   </li>
+   <li>
+      <a href="#Incident_INC_002" title="http://example.org/meddevice#Incident_INC_002">INC-002</a>
+   </li>
+   <li>
+      <a href="#Incident_INC_003" title="http://example.org/meddevice#Incident_INC_003">INC-003</a>
+   </li>
+   <li>
+      <a href="#Incident_INC_004" title="http://example.org/meddevice#Incident_INC_004">INC-004</a>
+   </li>
+   <li>
+      <a href="#Incident_INC_005" title="http://example.org/meddevice#Incident_INC_005">INC-005</a>
+   </li>
+   <li>
+      <a href="#Incident_INC_006" title="http://example.org/meddevice#Incident_INC_006">INC-006</a>
+   </li>
+   <li>
+      <a href="#Incident_INC_007" title="http://example.org/meddevice#Incident_INC_007">INC-007</a>
+   </li>
+   <li>
+      <a href="#Incident_INC_008" title="http://example.org/meddevice#Incident_INC_008">INC-008</a>
+   </li>
+   <li>
+      <a href="#Incident_INC_009" title="http://example.org/meddevice#Incident_INC_009">INC-009</a>
+   </li>
+   <li>
+      <a href="#Incident_INC_010" title="http://example.org/meddevice#Incident_INC_010">INC-010</a>
+   </li>
+   <li>
+      <a href="#Incident_INC_011" title="http://example.org/meddevice#Incident_INC_011">INC-011</a>
+   </li>
+   <li>
+      <a href="#Incident_INC_012" title="http://example.org/meddevice#Incident_INC_012">INC-012</a>
+   </li>
+   <li>
+      <a href="#Incident_INC_013" title="http://example.org/meddevice#Incident_INC_013">INC-013</a>
+   </li>
+   <li>
+      <a href="#Incident_INC_014" title="http://example.org/meddevice#Incident_INC_014">INC-014</a>
+   </li>
+   <li>
+      <a href="#Incident_INC_015" title="http://example.org/meddevice#Incident_INC_015">INC-015</a>
+   </li>
+   <li>
+      <a href="#Incident_INC_016" title="http://example.org/meddevice#Incident_INC_016">INC-016</a>
+   </li>
+   <li>
+      <a href="#Incident_INC_017" title="http://example.org/meddevice#Incident_INC_017">INC-017</a>
+   </li>
+   <li>
+      <a href="#Incident_INC_018" title="http://example.org/meddevice#Incident_INC_018">INC-018</a>
+   </li>
+   <li>
+      <a href="#Incident_INC_019" title="http://example.org/meddevice#Incident_INC_019">INC-019</a>
+   </li>
+   <li>
+      <a href="#Incident_INC_020" title="http://example.org/meddevice#Incident_INC_020">INC-020</a>
+   </li>
+   <li>
+      <a href="#Risk_RSK_007" title="http://example.org/meddevice#Risk_RSK_007">Infection - device-related</a>
+   </li>
+   <li>
+      <a href="#RiskType_InfectionRisk"
+         title="http://example.org/meddevice#RiskType_InfectionRisk">InfectionRisk</a>
+   </li>
+   <li>
+      <a href="#Device_DEV_024" title="http://example.org/meddevice#Device_DEV_024">Infusion Pump Plum 360</a>
+   </li>
+   <li>
+      <a href="#RiskType_InjuryRisk"
+         title="http://example.org/meddevice#RiskType_InjuryRisk">InjuryRisk</a>
+   </li>
+   <li>
+      <a href="#InSituCorrection" title="http://example.org/meddevice#InSituCorrection">InSituCorrection</a>
+   </li>
+   <li>
+      <a href="#RiskType_InterferenceRisk"
+         title="http://example.org/meddevice#RiskType_InterferenceRisk">InterferenceRisk</a>
+   </li>
+   <li>
+      <a href="#DeviceType_InVitroDiagnosticDevice"
+         title="http://example.org/meddevice#DeviceType_InVitroDiagnosticDevice">InVitroDiagnosticDevice</a>
+   </li>
+   <li>
+      <a href="#Country_Ireland" title="http://example.org/meddevice#Country_Ireland">Ireland</a>
+   </li>
+   <li>
+      <a href="#Country_Italy" title="http://example.org/meddevice#Country_Italy">Italy</a>
+   </li>
+   <li>
+      <a href="#IVDR" title="http://example.org/meddevice#IVDR">IVDR</a>
+   </li>
+   <li>
+      <a href="#Risk_RSK_006" title="http://example.org/meddevice#Risk_RSK_006">Lead dislodgement</a>
+   </li>
+   <li>
+      <a href="#Manufacturer_MAN_011"
+         title="http://example.org/meddevice#Manufacturer_MAN_011">LivaNova PLC</a>
+   </li>
+   <li>
+      <a href="#Probability_Low" title="http://example.org/meddevice#Probability_Low">Low</a>
+   </li>
+   <li>
+      <a href="#Device_DEV_014" title="http://example.org/meddevice#Device_DEV_014">Lumify Portable Ultrasound</a>
+   </li>
+   <li>
+      <a href="#Authority_L_kemedelsverket_MPA"
+         title="http://example.org/meddevice#Authority_L_kemedelsverket_MPA">Läkemedelsverket (MPA)</a>
+   </li>
+   <li>
+      <a href="#Device_DEV_008" title="http://example.org/meddevice#Device_DEV_008">MAGNETOM Vida MRI System</a>
+   </li>
+   <li>
+      <a href="#RiskType_MalfunctionRisk"
+         title="http://example.org/meddevice#RiskType_MalfunctionRisk">MalfunctionRisk</a>
+   </li>
+   <li>
+      <a href="#RiskType_MaterialRisk"
+         title="http://example.org/meddevice#RiskType_MaterialRisk">MaterialRisk</a>
+   </li>
+   <li>
+      <a href="#MDR" title="http://example.org/meddevice#MDR">MDR</a>
+   </li>
+   <li>
+      <a href="#Authority_Medicines_and_Healthcare_products_Regulatory_Agency_MHRA"
+         title="http://example.org/meddevice#Authority_Medicines_and_Healthcare_products_Regulatory_Agency_MHRA">Medicines and Healthcare products Regulatory Agency (MHRA)</a>
+   </li>
+   <li>
+      <a href="#Probability_Medium" title="http://example.org/meddevice#Probability_Medium">Medium</a>
+   </li>
+   <li>
+      <a href="#Manufacturer_MAN_001"
+         title="http://example.org/meddevice#Manufacturer_MAN_001">Medtronic plc</a>
+   </li>
+   <li>
+      <a href="#Risk_RSK_012" title="http://example.org/meddevice#Risk_RSK_012">Metallic artifact - MRI</a>
+   </li>
+   <li>
+      <a href="#Device_DEV_002" title="http://example.org/meddevice#Device_DEV_002">Micra AV Transcatheter Pacing System</a>
+   </li>
+   <li>
+      <a href="#Severity_Moderate" title="http://example.org/meddevice#Severity_Moderate">Moderate</a>
+   </li>
+   <li>
+      <a href="#NearMissIncident" title="http://example.org/meddevice#NearMissIncident">
+         <span>Near miss incident</span>
+      </a>
+   </li>
+   <li>
+      <a href="#Country_Netherlands"
+         title="http://example.org/meddevice#Country_Netherlands">Netherlands</a>
+   </li>
+   <li>
+      <a href="#Manufacturer_MAN_013"
+         title="http://example.org/meddevice#Manufacturer_MAN_013">Nipro Corporation</a>
+   </li>
+   <li>
+      <a href="#Status_Open" title="http://example.org/meddevice#Status_Open">Open</a>
+   </li>
+   <li>
+      <a href="#Device_DEV_021" title="http://example.org/meddevice#Device_DEV_021">OPTIGA Glucose Monitoring System</a>
+   </li>
+   <li>
+      <a href="#RiskCategory_Patient_Harm"
+         title="http://example.org/meddevice#RiskCategory_Patient_Harm">Patient Harm</a>
+   </li>
+   <li>
+      <a href="#Device_DEV_009" title="http://example.org/meddevice#Device_DEV_009">Persona Knee System</a>
+   </li>
+   <li>
+      <a href="#Manufacturer_MAN_004"
+         title="http://example.org/meddevice#Manufacturer_MAN_004">Philips Medical Systems</a>
+   </li>
+   <li>
+      <a href="#Country_Poland" title="http://example.org/meddevice#Country_Poland">Poland</a>
+   </li>
+   <li>
+      <a href="#Device_DEV_003" title="http://example.org/meddevice#Device_DEV_003">Portico Transcatheter Heart Valve</a>
+   </li>
+   <li>
+      <a href="#RiskCategory_Product_Quality"
+         title="http://example.org/meddevice#RiskCategory_Product_Quality">Product Quality</a>
+   </li>
+   <li>
+      <a href="#Device_DEV_019" title="http://example.org/meddevice#Device_DEV_019">PROGENSA PCA3 Assay</a>
+   </li>
+   <li>
+      <a href="#Risk_RSK_011" title="http://example.org/meddevice#Risk_RSK_011">Radiation overdose</a>
+   </li>
+   <li>
+      <a href="#RiskType_RadiationRisk"
+         title="http://example.org/meddevice#RiskType_RadiationRisk">RadiationRisk</a>
+   </li>
+   <li>
+      <a href="#Recall" title="http://example.org/meddevice#Recall">Recall</a>
+   </li>
+   <li>
+      <a href="#Authority_Rijksinstituut_voor_Volksgezondheid_en_Milieu_RIVM"
+         title="http://example.org/meddevice#Authority_Rijksinstituut_voor_Volksgezondheid_en_Milieu_RIVM">Rijksinstituut voor Volksgezondheid en Milieu (RIVM)</a>
+   </li>
+   <li>
+      <a href="#Manufacturer_MAN_005"
+         title="http://example.org/meddevice#Manufacturer_MAN_005">Roche Diagnostics GmbH</a>
+   </li>
+   <li>
+      <a href="#SafetyAlert" title="http://example.org/meddevice#SafetyAlert">SafetyAlert</a>
+   </li>
+   <li>
+      <a href="#DeviceType_SelfTestDevice"
+         title="http://example.org/meddevice#DeviceType_SelfTestDevice">SelfTestDevice</a>
+   </li>
+   <li>
+      <a href="#Severity_Serious" title="http://example.org/meddevice#Severity_Serious">Serious</a>
+   </li>
+   <li>
+      <a href="#SeriousIncident" title="http://example.org/meddevice#SeriousIncident">
+         <span>Serious incident</span>
+      </a>
+   </li>
+   <li>
+      <a href="#Manufacturer_MAN_003"
+         title="http://example.org/meddevice#Manufacturer_MAN_003">Siemens Healthineers AG</a>
+   </li>
+   <li>
+      <a href="#DeviceType_SingleUseDevice"
+         title="http://example.org/meddevice#DeviceType_SingleUseDevice">SingleUseDevice</a>
+   </li>
+   <li>
+      <a href="#Risk_RSK_010" title="http://example.org/meddevice#Risk_RSK_010">Software malfunction</a>
+   </li>
+   <li>
+      <a href="#RiskType_SoftwareRisk"
+         title="http://example.org/meddevice#RiskType_SoftwareRisk">SoftwareRisk</a>
+   </li>
+   <li>
+      <a href="#Country_Spain" title="http://example.org/meddevice#Country_Spain">Spain</a>
+   </li>
+   <li>
+      <a href="#Device_DEV_006" title="http://example.org/meddevice#Device_DEV_006">STELLAREX Drug-Coated Balloon</a>
+   </li>
+   <li>
+      <a href="#Manufacturer_MAN_007"
+         title="http://example.org/meddevice#Manufacturer_MAN_007">Stryker Corporation</a>
+   </li>
+   <li>
+      <a href="#Country_Sweden" title="http://example.org/meddevice#Country_Sweden">Sweden</a>
+   </li>
+   <li>
+      <a href="#Authority_Swissmedic"
+         title="http://example.org/meddevice#Authority_Swissmedic">Swissmedic</a>
+   </li>
+   <li>
+      <a href="#Country_Switzerland"
+         title="http://example.org/meddevice#Country_Switzerland">Switzerland</a>
+   </li>
+   <li>
+      <a href="#Device_DEV_004" title="http://example.org/meddevice#Device_DEV_004">SYNERGY Stent System</a>
+   </li>
+   <li>
+      <a href="#Risk_RSK_003" title="http://example.org/meddevice#Risk_RSK_003">Thrombosis - device-related</a>
+   </li>
+   <li>
+      <a href="#Device_DEV_023" title="http://example.org/meddevice#Device_DEV_023">Tivoli II Cochlear Implant</a>
+   </li>
+   <li>
+      <a href="#Device_DEV_010" title="http://example.org/meddevice#Device_DEV_010">TRITON Total Hip System</a>
+   </li>
+   <li>
+      <a href="#Country_United_Kingdom"
+         title="http://example.org/meddevice#Country_United_Kingdom">United Kingdom</a>
+   </li>
+   <li>
+      <a href="#UserNotice" title="http://example.org/meddevice#UserNotice">UserNotice</a>
+   </li>
+   <li>
+      <a href="#Device_DEV_025" title="http://example.org/meddevice#Device_DEV_025">ValveXpert Transcatheter Mitral Valve</a>
+   </li>
+   <li>
+      <a href="#Device_DEV_018" title="http://example.org/meddevice#Device_DEV_018">VIDAS HIV DUO Ultra</a>
+   </li>
+   <li>
+      <a href="#Device_DEV_012" title="http://example.org/meddevice#Device_DEV_012">Viva Cardiac Resynchronization Defibrillator</a>
+   </li>
+   <li>
+      <a href="#Risk_RSK_019" title="http://example.org/meddevice#Risk_RSK_019">Wear debris - joint implant</a>
+   </li>
+   <li>
+      <a href="#Manufacturer_MAN_010"
+         title="http://example.org/meddevice#Manufacturer_MAN_010">Zimmer Biomet Holdings</a>
+   </li>
+</ul>
